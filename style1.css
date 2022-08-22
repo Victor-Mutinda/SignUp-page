@@ -1,0 +1,51 @@
+body , html {
+  background-image:url("https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80"); 
+  background-position:  center;
+  background-size:contain;
+  height: 100%;
+}
+
+.Intro{
+  font-size: large;
+  font-style: oblique ;
+  font-family: "Sofia", sans-serif;
+  color: white;
+  text-align:left;
+  letter-spacing: 5px;
+  font-family:"Sofia", sans-serif;
+}
+.home{
+  position:absolute;
+  right: 0;
+  letter-spacing: 3px;
+  color: white;
+  text-align: center;
+  margin: 60px;
+  padding: 80px;
+  max-width: 200px;
+  border-style: solid;
+  border-color: azure;
+  border-radius: 30px;
+  border-width: 2px;
+  }
+.button{
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: rgba(222, 214, 214, 0.92);
+  color: black;
+  font-size: medium;
+  padding: 0.5% 0.5%;
+}
+input[type=text] , input[type=email] , input[type=password] {
+  width: auto;
+  margin: 10px auto;
+  padding: 5px 5px;
+  display: inline-block;
+  border: 1px solid rgb(0, 0, 0);
+  box-sizing: border-box;
+  background-color: transparent;
+  border-color: white;
+
+}
+  
+  
